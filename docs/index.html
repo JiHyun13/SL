@@ -3,44 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>학생 연구실 설립 제안 - 개요</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        body { padding-top: 56px; }
-        .jumbotron { background-color: #e9ecef; }
-        .section-heading { border-bottom: 2px solid #007bff; padding-bottom: 0.5rem; margin-bottom: 1rem; }
-    </style>
+    <title>AI&DS 학생 랩</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-
-    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="#">학생 연구실 제안</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active"><a class="nav-link" href="index.html">개요</a></li>
-                <li class="nav-item"><a class="nav-link" href="structure.html">연구실 구성</a></li>
-                <li class="nav-item"><a class="nav-link" href="operation.html">운영 방식</a></li>
-                <li class="nav-item"><a class="nav-link" href="system.html">전반적인 시스템</a></li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo.png" alt="AI&DS 학생 연구실 로고" width="150">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                   <li class="nav-item"><a class="nav-link" href="introduce.html">연구실 소개</a></li>
+                    <li class="nav-item"><a class="nav-link" href="operation.html">운영 방식</a></li>
+                    <li class="nav-item"><a class="nav-link" href="system.html">시스템</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
+<main class="container-fluid p-0" style="padding-top: 70px">
+    <section class="hero-section text-white text-center d-flex flex-column justify-content-center align-items-center">
+        <h1 class="display-3 fw-bold">AI&DS 학생 랩</h1>
+        <p class="lead">학생 랩 시스템 제안서입니다</p>
+        <a href="introduce.html" class="btn btn-light btn-lg mt-3">랩 소개</a>
+    </section>
 
-    <main class="container">
-        <section class="jumbotron">
-            <h1 class="display-4">학생 연구실 설립 제안</h1>
-            <p class="lead">본 제안서는 학과 학생들의 주도적인 학습 및 연구 활동을 지원하고, 실질적인 문제 해결 능력을 향상시키기 위한 학생 연구실 설립 계획을 담고 있습니다.</p>
-        </section>
-        <section>
-            <h2 class="section-heading">제안 요약</h2>
-            <p>이곳에 제안서의 핵심 내용을 간결하게 요약해서 작성해 주세요.</p>
-        </section>
-    </main>
+    <section class="container py-5">
+        <div class="row text-center g-4">
+            <div class="col-md-4">
+                <div class="p-4 rounded-3 h-100 shadow-sm border">
+                    <i class="bi bi-people-fill display-4 text-primary mb-3"></i>
+                    <h4 class="fw-bold">연구실 구성</h4>
+                    <p class="text-muted">학과 학생들, 교수진, 그리고 학생회로 이루어진 체계적인 구성</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-4 rounded-3 h-100 shadow-sm border">
+                    <i class="bi bi-gear-fill display-4 text-primary mb-3"></i>
+                    <h4 class="fw-bold">운영 방식</h4>
+                    <p class="text-muted">자율적인 스터디와 프로젝트, 정기 세미나로 끊임없이 성장</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-4 rounded-3 h-100 shadow-sm border">
+                    <i class="bi bi-laptop-fill display-4 text-primary mb-3"></i>
+                    <h4 class="fw-bold">전반적인 시스템</h4>
+                    <p class="text-muted">효율적인 협업을 위한 온라인 시스템 및 최신 기자재 활용</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <section class="container py-5">
+        <div class="row align-items-center g-5">
+            <div class="col-md-6">
+                <h2 class="fw-bold">산학 연계 및 전문가 멘토링</h2>
+                <p class="mt-4">우리 연구실은 단순한 학습 모임을 넘어, 현업 전문가와 교수진의 멘토링을 통해 실질적인 성과를 창출합니다. 기업과의 협력을 통해 실제 산업 현장의 문제를 해결하는 프로젝트에 참여할 기회를 제공합니다.</p>
+                <ul class="list-unstyled mt-4">
+                    <li class="d-flex align-items-center mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i><span>기업 연계 프로젝트 참여</span></li>
+                    <li class="d-flex align-items-center mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i><span>현직 전문가 초청 특강</span></li>
+                    <li class="d-flex align-items-center mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i><span>교수진 1:1 연구 멘토링</span></li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <img src="assets/images/collaboration.jpg" class="img-fluid rounded-3 shadow-lg" alt="협력 이미지">
+            </div>
+        </div>
+    </section>
+
+</main>
+
+   <footer class="bg-dark text-white py-4 mt-5">
+    <div class="container text-center text-md-start">
+        <div class="row">
+            <div class="col-md-4 mb-3 mb-md-0">
+                <h5 class="text-uppercase fw-bold">AI&DS 학생 연구실</h5>
+                <p>
+                    미래 AI 전문가를 꿈꾸는 학생들이 모여<br>
+                    함께 성장하는 지식 공유의 장입니다.
+                </p>
+            </div>
+            <div class="col-md-4 mb-3 mb-md-0">
+                <h5 class="text-uppercase fw-bold">관련 링크</h5>
+                <ul class="list-unstyled">
+                    <li><a href="https://www.sejong.ac.kr/kor/college/data-science.do" class="text-white text-decoration-none" target="_blank">인공지능데이터사이언스학과 소개</a></li>
+                    <li><a href="https://home.sejong.ac.kr/~aidsdpt/" class="text-white text-decoration-none" target="_blank">AI&DS 학과 홈페이지</a></li>
+                    <li><a href="https://www.sejong.ac.kr/kor/college/data-science.do" class="text-white text-decoration-none" target="_blank">학생회 인스타그램</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5 class="text-uppercase fw-bold">Follow Us</h5>
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://www.instagram.com/sejong_aidata/" target="_blank" class="text-white">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="30">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

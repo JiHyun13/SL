@@ -1,0 +1,39 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #343a40;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+
+/* 히어로 섹션 배경 이미지 설정 */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/lab-background.jpg') no-repeat center center/cover;
+    height: 60vh;
+}
+
+/* 아이콘 스타일 (부트스트랩 아이콘 사용) */
+/* 부트스트랩 아이콘 CDN을 HTML에 추가해야 합니다 */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+.text-primary { color: #0056b3 !important; } /* 파란색 계열로 통일 */
+.text-success { color: #28a745 !important; }
+
+.btn-light {
+    border-color: #fff;
+    color: #000;
+}
+
+.navbar {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+footer {
+    font-size: 0.7rem; /* 기본 폰트 크기보다 작게 설정 (약 70%) */
+}
+footer h5{ 
+    font-size: 0.8rem;
+}
